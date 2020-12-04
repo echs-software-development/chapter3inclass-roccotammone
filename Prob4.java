@@ -6,7 +6,7 @@ public class Prob4  {
     System.out.println("Enter a temperature: ");
     double temp= scan.nextDouble();
 
-    if (temp<=99 || >=102)
+    if (temp < 99 || > 102)
     System.out.println("WARNING");
 
     else
